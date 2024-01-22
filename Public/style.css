@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    place-content: center;
+    display: grid;
+    background-color: rgb(255, 175, 202);
+}
+main{
+    
+    background-color: antiquewhite;
+    height: 70vh;
+    margin-top: 50px;
+    width: 50vh;
+    place-content: center;
+    display: grid;
+    align-items: center;
+   
+}
+form{
+   
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+input{
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 7px;
+    color: white;
+    border: none;
+    background-color: palevioletred;
+}
